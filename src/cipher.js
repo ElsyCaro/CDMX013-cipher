@@ -33,7 +33,7 @@ const cipher = {
     if (offset <= 0 && typeof frase !== "string" ){
       throw new TypeError(); 
      }
-    let fraseNueva = '';
+    let fraseNueva ='';
     for (let i = 0; i < frase.length; i += 1) {
       
       // obtiene el caracter en unicode
