@@ -1,0 +1,57 @@
+body {
+    /*El cuerpo del html*/
+    font-family: 'Florence,cursive';
+    font-size: 23px;
+    background-image: url('./img/thumb.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#root{
+    /*El div id="root" del html*/
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 11;
+    width: 90%;
+}
+
+.botones{
+    /*Los button class="botones" darles estilo  html*/
+    padding: 8px 15px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botones:hover {
+    opacity: 0.8; 
+}
+.nude{
+    /*Los button class="nude" del html*/
+    background: rgb(189, 157, 157);
+    color: rgba(255, 255, 255, 0.857);
+}
+.nude{
+    /*Los button class="nude" del html*/
+    background: rgb(189, 157, 157);
+    color: rgb(236, 224, 224);
+}
+.textbox{
+    /*Los textarea(tiene dimensiones, como una imagen agrandada) class="textbox" del html*/
+    border: 1px rgb(189, 157, 157) solid;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.texto{
+    /*Los textarea class="texto" del html*/
+    resize: none;
+    width: 50%;
+    height: 100px;
+}
+#offset{
+    /*El input id="offset" del html, que es el cuadro desplazamiento*/
+    width: 60px;
+    }
+
+
